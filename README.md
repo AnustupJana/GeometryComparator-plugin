@@ -76,4 +76,4 @@ This plugin is licensed under the **GNU General Public License v2.0 or later**. 
 
 - **Author**: Anustup Jana
 - **Email**: anustupjana21@gmail.com
-- **GitHub**: [Your GitHub Profile](https://github.com/AnustupJana)
+- **GitHub**: [Anustup Jana](https://github.com/AnustupJana)
