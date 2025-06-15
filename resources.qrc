@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/geometry_comparator" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
