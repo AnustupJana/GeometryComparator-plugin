@@ -7,7 +7,7 @@ The **Geometry Comparator** plugin for QGIS is a tool designed to compare two ve
 
 ## Requirements
 
-- **QGIS Version**: 3.1 or later.
+- **QGIS Version**: 3.0 or later.
 - **Operating System**: Windows, macOS, or Linux (compatible with QGIS installations).
 - **Dependencies**: No additional Python libraries required; uses QGIS core and PyQt modules.
 
