@@ -16,16 +16,18 @@ The **Geometry Comparator** plugin for QGIS is a tool designed to compare two ve
 1. **From QGIS Plugin Repository**:
    - In QGIS, go to `Plugins > Manage and Install Plugins`.
   
-     ![Diagram of the System](https://github.com/AnustupJana/PolygonCompare-plugin/blob/main/doc/1st_Plugin.png?raw=true)
+     ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/1st.png?raw=true)
    - Search for "Geometry Comparator" in the `All` tab.
+
+     ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/2nd.png?raw=true)
    - Click `Install Plugin`.
 
-2. **From ZIP File**:
+1. **From ZIP File**:
    - Download the plugin ZIP file from the [GitHub Releases](https://github.com/AnustupJana/GeometryComparator-plugin.git) page.
    - In QGIS, go to `Plugins > Manage and Install Plugins > Install from ZIP`.
    - Select the downloaded ZIP file and click `Install Plugin`.
 
-3. **From Source (for developers)**:
+2. **From Source (for developers)**:
    - Clone or download this repository:
      ```bash
      git clone https://github.com/AnustupJana/GeometryComparator-plugin.git
@@ -35,11 +37,11 @@ The **Geometry Comparator** plugin for QGIS is a tool designed to compare two ve
      - Linux: `~/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
      - macOS: `~/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins`
 
-4. **Enable the Plugin**:
+3. **Enable the Plugin**:
    - In the QGIS Plugin Manager, search for **Geometry Comparator**.
    - Check the box to enable the plugin.
 
-5. **Verify Installation**:
+4. **Verify Installation**:
    - Look for the **Geometry Comparator** icon in the QGIS toolbar or find it in the **Vector** menu.
    - Open the Processing Toolbox (`Ctrl+Alt+T`) and locate **Geometry Comparator** under **Vector Analysis**.
 
@@ -48,9 +50,15 @@ The **Geometry Comparator** plugin for QGIS is a tool designed to compare two ve
 1. **Launch the Plugin**:
    - Click the **Geometry Comparator** toolbar icon or select **Geometry Comparator** from the **Vector** menu.
    - Alternatively, open the Processing Toolbox (`Ctrl+Alt+T`), navigate to **Vector Analysis**, and double-click **Geometry Comparator**.
+  
+     ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/3rd.png?raw=true)
+
+     ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/5th.png?raw=true)
 
 2. **Configure Parameters**:
    - **Geometry Type**: Select the geometry type of your layers (Polygon, Line, or Point).
+
+     ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/6th.png?raw=true)
    - **Old Layer**: Choose the older vector layer to compare.
    - **New Layer**: Choose the newer vector layer to compare.
    - **Unique ID Field**: Select a field containing unique IDs. This field must exist in both layers.
@@ -58,15 +66,27 @@ The **Geometry Comparator** plugin for QGIS is a tool designed to compare two ve
      - **Modified Features**: Specify the destination for modified features (default: temporary layer).
      - **Added Features**: Specify the destination for added features (default: temporary layer).
      - **Deleted Features**: Specify the destination for deleted features (default: temporary layer).
+    
+      ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/7th.png?raw=true)
 
 3. **Run the Algorithm**:
    - Click **Run** in the dialog to process the layers.
    - The plugin will validate inputs and compare features based on IDs and geometries.
    - Progress and feedback (e.g., skipped features with null/invalid geometries) are shown in the dialog.
 
+   ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/8th.png?raw=true)
+
 4. **View Results**:
    - Output layers (**Added**, **Deleted**, **Modified**) are added to the QGIS Layers panel.
    - Inspect the layers to analyze changes between the old and new datasets.
+
+   ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/9th.png?raw=true)
+
+   ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/11th_Compare.PNG?raw=true)
+
+   ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/12th_Compare.PNG?raw=true)
+
+   ![Diagram of the System](https://github.com/AnustupJana/GeometryComparator-plugin/blob/main/doc/13th_Compare.PNG?raw=true)
 
 ## License
 
